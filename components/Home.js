@@ -16,7 +16,7 @@ function Home() {
 
   
   useEffect(() => {
-    fetch("https://backend-movi-gray.vercel.app/movies")
+    fetch("https://backend-moviz-gray.vercel.app/movies")
       .then(res => res.json())
       .then(data => {
         setMoviesData(data.movies);
